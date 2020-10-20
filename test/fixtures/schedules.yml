@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  active: false
+  name: MyString
+  program: MyString
+  start_date: MyString
+  form: MyString
+  start_day_int: 1
+  weekly_count: 1
+  hour: 1
+  category: MyString
+  type: 
+  user: one
+
+two:
+  active: false
+  name: MyString
+  program: MyString
+  start_date: MyString
+  form: MyString
+  start_day_int: 1
+  weekly_count: 1
+  hour: 1
+  category: MyString
+  type: 
+  user: two

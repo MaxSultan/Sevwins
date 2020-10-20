@@ -1,0 +1,59 @@
+#register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3em;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.21), 
+  0 2px 2px rgba(0,0,0,0.21), 
+  0 4px 4px rgba(0,0,0,0.21), 
+  0 8px 8px rgba(0,0,0,0.21),
+  0 16px 16px rgba(0,0,0,0.21);
+}
+
+#register section{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0.5em;
+}
+
+#register section input{
+  height: 2em;
+}
+
+.page{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(#fff, #c4c4c4);
+}
+
+#goals {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#goals td, #goals th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#goals tr:nth-child(even){background-color: #f2f2f2;}
+
+#goals tr:hover {background-color: #ddd;}
+
+#goals th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: red;
+  color: white;
+}
